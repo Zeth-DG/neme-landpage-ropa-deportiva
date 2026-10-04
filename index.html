@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>neme | ropa deportiva que se mueve contigo</title>
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap e iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3c061b6e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  
+  <body>
+  <!-- Header minimalista con hamburger menu -->
+  <header class="site-header">
+    <div class="container-custom d-flex justify-content-between align-items-center">
+      <a href="#" class="brand-logo">
+        <img src="./images/download-removebg-preview.png" alt="neme logo" height="45">
+      </a>
+      
+      <!-- Botón hamburguesa (visible solo en móviles) -->
+      <button class="btn-hamburguesa" id="btnHamburguesa" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <!-- Navegación -->
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-list">
+          <li><a href="#colecciones" class="nav-link">Colecciones</a></li>
+          <li><a href="#acerca" class="nav-link">Acerca</a></li>
+          <li><a href="#contacto-mock" class="nav-link">Contacto</a></li>
+          <!-- Botón del carrito -->
+          <li class="nav-item">
+            <button type="button" class="btn btn-carrito-nav position-relative" data-bs-toggle="modal" data-bs-target="#modalCarrito">
+              🛒 Carrito 
+              <span id="contador-carrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Overlay para cuando el menú está abierto -->
+<div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Hero section -->
+    <section id="hero" class="site-hero">
+      <div class="hero-content">
+        <h1>Ropa deportiva que se mueve contigo</h1>
+        <p>Diseñada para entrenar, nadar y correr con total comodidad</p>
+        <a href="#colecciones" class="btn-primary-custom">Ver colecciones</a>
+      </div>
+    </section>
+
+    <!-- Colecciones -->
+    <main id="colecciones" class="site-content py-5">
+      <div class="container-custom">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Nuestras Colecciones</h2>
+          <p class="text-muted">Elige tu disciplina y descubre la equipación ideal</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Colección Fuerza -->
+          <div class="col-12 col-md-4">
+            <div class="collection-card">
+              <img src="./images/stock-ropa-deportiva/fuerza/pexels-amar-13965347.jpg" alt="Ropa para entrenar fuerza" class="collection-img" onerror="this.src='https://via.placeholder.com/400x300?text=Fuerza'">
+              <div class="p-4 text-center">
+                <h3>Fuerza</h3>
+                <button class="btn btn-dark btn-explore mt-2" data-bs-toggle="modal" data-bs-target="#modalFuerza">
+                  Explorar Fuerza
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Colección Nadar -->
+          <div class="col-12 col-md-4">
+            <div class="collection-card">
+              <img src="./images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-rey-nadando.jpg" alt="Trajes de natación" class="collection-img" onerror="this.src='https://via.placeholder.com/400x300?text=Nadar'">
+              <div class="p-4 text-center">
+                <h3>Nadar</h3>
+                <button class="btn btn-dark btn-explore mt-2" data-bs-toggle="modal" data-bs-target="#modalNadar">
+                  Explorar Nadar
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Colección Correr -->
+          <div class="col-12 col-md-4">
+            <div class="collection-card">
+              <img src="./images/stock-ropa-deportiva/correr/pexels-tanyakorn-7515411.jpg" alt="Ropa para correr" class="collection-img" onerror="this.src='https://via.placeholder.com/400x300?text=Correr'">
+              <div class="p-4 text-center">
+                <h3>Correr</h3>
+                <button class="btn btn-dark btn-explore mt-2" data-bs-toggle="modal" data-bs-target="#modalCorrer">
+                  Explorar Correr
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- botón pequeño para Otros Deportes -->
+      <div class="text-center my-4">
+        <button type="button" class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target="#modalOtros">Ver otros deportes</button>
+      </div>
+
+      <!-- Modales -->
+      <!--FUERZA-->
+      <div class="modal fade" id="modalFuerza" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fw-bold">Ropa y accesorias para tu entrenamiento de fuerza</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="contenedor-fuerza" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--NADAR-->
+      <div class="modal fade" id="modalNadar" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fw-bold">Trajes y accesorios para nadar con libertad</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="contenedor-nadar" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--CORRER-->
+      <div class="modal fade" id="modalCorrer" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fw-bold">Ropa y accesorios para andar sin frenos</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="contenedor-correr" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal de Otros Deportes -->
+      <div class="modal fade" id="modalOtros" tabindex="-1" aria-labelledby="modalOtrosLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalOtrosLabel">Colección para otros deportes</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3" id="contenedor-otros">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal del Carrito -->
+      <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="modalCarritoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalCarritoLabel">Tu Carrito de Compras</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="contenedor-carrito-items">
+                <!-- Los productos seleccionados aparecerán aquí dinámicamente -->
+              </div>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <div>
+                <span class="fw-bold">Total:</span> 
+                <span id="total-carrito" class="fs-5 fw-bold text-success">$0</span>
+              </div>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Acerca de -->
+    <section id="acerca" class="site-about py-5 bg-light">
+      <div class="container-custom py-4">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9 text-center">
+            <h2 class="mb-4">¿Qué es neme?</h2>
+            <p class="lead text-muted mb-4">
+              <strong>Neme</strong> significa <em>bailar</em> en mazahua. La idea nace de mis raíces y de la región donde son mis abuelos, una zona con gran tradición en la confección de ropa. En conjunto con la ropa de mi abuela con sus blusas con cenefas de flores tejidas, diseñé este proyecto combinando identidad cultural y desarrollo web.
+            </p>
+            <p class="text-muted">
+              Más allá de la estética superficial, neme busca la <strong>comodidad para la actividad física real</strong>: para cargar más, caminar más y nadar con absoluta libertad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto (Mock) -->
+    <section id="contacto-mock" class="py-5">
+      <div class="container-custom text-center">
+        <h2 class="mb-3">¿Tienes dudas o necesitas asesoría?</h2>
+        <p class="text-muted mb-4">Este es un proyecto de portafolio. ¡Contáctame a través de LinkedIn!</p>
+        <button class="btn btn-outline-dark btn-lg px-4 rounded-pill" onclick="alert('Simulación de contacto: ¡Proyecto mock de tienda deportiva!')">
+          <i class="fa-solid fa-envelope me-2"></i> Enviar Mensaje
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="site-footer py-5">
+      <div class="container-custom">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <h4 class="text-white fw-bold">neme</h4>
+            <p class="text-secondary mb-0">Ropa deportiva que te sigue el ritmo en todo momento.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <h5 class="text-white">Enlaces</h5>
+            <ul class="list-unstyled">
+              <li><a href="#colecciones" class="text-decoration-none text-secondary">Colecciones</a></li>
+              <li><a href="#acerca" class="text-decoration-none text-secondary">Acerca</a></li>
+              <li><a href="#contacto-mock" class="text-decoration-none text-secondary">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <h5 class="text-white">Ubicación</h5>
+            <p class="text-secondary mb-1"><i class="fa-solid fa-location-dot me-2"></i> Estado de México</p>
+            <p class="text-secondary mb-0"><i class="fa-solid fa-code me-2"></i> Proyecto para portafolio</p>
+            <p class="text-secondary mb-1"><i class="fa-regular fa-face-smile me-2"></i> Hecho por Zeth Dorantes</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

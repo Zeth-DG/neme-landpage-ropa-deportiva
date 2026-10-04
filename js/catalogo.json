@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "nombre": "Botella rosa",
+    "precio": 100,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/botella-rosa.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Botella verde",
+    "precio": 100,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/botella-verde.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Kit 1: incluye playera, tenis, calcetines y un botella",
+    "precio": 500,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/kit-playeraBlanca-tenisAzules-calcetinesBlancos-botellaDorada.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Kit 2: incluye tenis y botella",
+    "precio": 300,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/kit-tenisBlancosYAzul-botellaTransparenteTapaAzul.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Kit 3: incluye top y shorts azules + short y top",
+    "precio": 620,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/kit-topAzul-shortAzul-shortGris-topConPatron.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Kit 4: incluye top, pantalon y botella",
+    "precio": 440,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/kit-topRosa-pantalonNegro-botellaTransparenteTapaNegra.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Tenis de colores: gris, blanco y rojo",
+    "precio": 990,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/tenis-gris-blanco-rojo.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Tenis negros",
+    "precio": 1080,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/tenis-negros.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Tenis colores verde con negro",
+    "precio": 830,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/tenis-verdes-con-negro.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Tenis color verde aqua",
+    "precio": 960,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/accesorios-correr/tenis-verdesAqua.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Guantes para pesas",
+    "precio": 580,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/guantes-para-pesas.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Kit 1: botella y tenis blancos",
+    "precio": 580,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-botellaTransparente-tenisBlancos.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Kit 2: para calentamiento",
+    "precio": 640,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-calentamiento-banda-pelotas-mancuernas-desdeArriba.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Kit 3: para calentamiento incluye top",
+    "precio": 760,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-calentamiento-banda-pelotas-mancuernas-frontal.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Kit 4: fuerza total",
+    "precio": 700,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-mancuernas-botellaBlanca-handgrip-tenisVino.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Kit 5: namaste",
+    "precio": 550,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-mancuernas-tapeteYoga.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Kit 6: core fuerte",
+    "precio": 570,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-ruedaAbdominalAzul-mancuernas.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Kit 7: fuerza en casa",
+    "precio": 640,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-ruedaAbdominalNegra-mancuernasNegras.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Kit 8: siempre rosa",
+    "precio": 580,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-tenisRosas-topRosa.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Kit 9: calentamiento divertido",
+    "precio": 490,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-toallaGym-cuerdaSaltar.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Kit 10: rutina completa",
+    "precio": 740,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-toallaGym-pantalonGrisa-topRosaConNegro.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Kit 11: TRX",
+    "precio": 1020,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/kit-TRX-tenisNegros-bandasResistencia-mancuernas.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Kit 12: mancuernas y guantes de fuerza",
+    "precio": 510,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/mancuernas-guantes-de-fuerza.jpg"
+  },
+  {
+    "id": 24,
+        "nombre": "Maleta de gimnasio",
+    "precio": 520,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/maleta-de-costado.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Mancuernas",
+    "precio": 470,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/mancuernas.jpg"
+  },
+  {
+    "id": 26,
+    "nombre": "Reloj inteligente",
+    "precio": 910,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/accesorios-fuerza/reloj-inteligente.jpg"
+  },
+  {
+    "id": 27,
+    "nombre": "Sandalias grises",
+    "precio": 130,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/sandalias-grises.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Sandalias moradas",
+    "precio": 190,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/sandalias-moradas.jpg"
+  },
+  {
+    "id": 29,
+    "nombre": "Sandalias naranjas",
+    "precio": 210,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/sandalias-naranjas.jpg"
+  },
+  {
+    "id": 30,
+    "nombre": "Sandalias rojas",
+    "precio": 150,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/sandalias-rojas.jpg"
+  },
+  {
+    "id": 31,
+    "nombre": "Sombrero",
+    "precio": 210,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/sombrero.jpg"
+  },
+  {
+    "id": 32,
+    "nombre": "Toalla naranja",
+    "precio": 340,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/toalla-naranja.jpg"
+  },
+  {
+    "id": 33,
+    "nombre": "Toalla de rayas colores pastel",
+    "precio": 270,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/toalla-rayas-pastel.jpg"
+  },
+  {
+    "id": 34,
+    "nombre": "Toalla roja y naranja",
+    "precio": 310,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/toalla-roja-naranja.jpg"
+  },
+  {
+    "id": 35,
+    "nombre": "Toalla y botella",
+    "precio": 380,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/toalla-y-botella.jpg"
+  },
+  {
+    "id": 36,
+    "nombre": "Kit de toallas",
+    "precio": 450,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/toallas-blancas.jpg"
+  },
+  {
+    "id": 37,
+    "nombre": "Tolla con patron",
+    "precio": 240,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/accesorios-nadar/tolla-patron.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "Conjunto pantalon azul, playera manga larga azul y gorra",
+    "precio": 560,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-pantalonAzulMarino-playeraMangaLargaAzulRey-conGorra.jpg"
+  },
+  {
+    "id": 39,
+    "nombre": "Conjunto playera manga corta blanca y short naranja",
+    "precio": 330,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaCortaBlanca-shortNaranja.jpg"
+  },
+  {
+    "id": 40,
+    "nombre": "Conjunto playera manga corta blanca y short negro",
+    "precio": 600,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaCortaBlanca-shortNegro.jpg"
+  },
+  {
+    "id": 41,
+    "nombre": "Conjunto playera manga corta y short negros",
+    "precio": 580,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaCortaNegraYMorado-shortNegro.jpg"
+  },
+  {
+    "id": 42,
+    "nombre": "Conjunto playera manga corta y short negros",
+    "precio": 450,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaCortaNegrayVerde-shortNegro.jpg"
+  },
+  {
+    "id": 43,
+    "nombre": "Conjunto playera manga corta rosa y short negro, incluye cangurera rosa",
+    "precio": 780,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaCortaRosa-shortNegro-conCangureraRosa.jpg"
+  },
+  {
+    "id": 44,
+    "nombre": "Conjunto playera manga larga negra y pantalon blanco",
+    "precio": 590,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaLargaNegra-pantalonBlanco.jpg"
+  },
+  {
+    "id": 45,
+    "nombre": "Conjunto playera manga larga y short negro",
+    "precio": 400,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraMangaLargaNegrayVerde-shortNegro.jpg"
+  },
+  {
+    "id": 46,
+    "nombre": "Conjunto playera sin mangas naranja pantalon naranja",
+    "precio": 610,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playeraSinMangasNaranja-pantalonNaranja.jpg"
+  },
+  {
+    "id": 47,
+    "nombre": "Conjunto player manga corta azul short negro",
+    "precio": 550,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-playerMangaCortaAzul-shortNegro.jpg"
+  },
+  {
+    "id": 48,
+    "nombre": "Conjunto top blanco pantalon negro",
+    "precio": 270,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topBlanco-pantalonNegro.jpg"
+  },
+  {
+    "id": 49,
+    "nombre": "Conjunto top blanco short negro con lentes negros",
+    "precio": 430,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topBlanco-shortNegro-conLentesNegros.jpg"
+  },
+  {
+    "id": 50,
+    "nombre": "Conjunto top gris claro pantalon gris con negro",
+    "precio": 250,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topGrisClaro-pantalonGrisConNegro.jpg"
+  },
+  {
+    "id": 51,
+    "nombre": "Conjunto top negro short blancoynegro calcetines negros",
+    "precio": 410,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topNegro-shortBlancoynegro-calcetinesNegros.jpg"
+  },
+  {
+    "id": 52,
+    "nombre": "Conjunto top negro short negro calcetines negros",
+    "precio": 530,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topNegro-shortNegro-calcetinesNegros.jpg"
+  },
+  {
+    "id": 53,
+    "nombre": "Conjunto top rosa short rosa con cangurera blanca",
+    "precio": 250,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-topRosa-shortRosa-conCangureraBlanca.jpg"
+  },
+  {
+    "id": 54,
+    "nombre": "Conjunto verde aqua short y top con mangas",
+    "precio": 390,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-verdeAqua-short-y-top-con-mangas.jpg"
+  },
+  {
+    "id": 55,
+    "nombre": "Conjunto verde neon top y short",
+    "precio": 460,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/correr/conjunto-verdeNeon-top-y-short.jpg"
+  },
+  {
+    "id": 57,
+    "nombre": "Conjunto playera manga corta short negros",
+    "precio": 580,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-playeraMangaCorta-short-negros.jpg"
+  },
+  {
+    "id": 58,
+    "nombre": "Conjunto playera manga corta sudadera pantalon negro",
+    "precio": 380,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-playeraMangaCorta-sudadera-pantalon-Negro.jpg"
+  },
+  {
+    "id": 59,
+    "nombre": "Conjunto playera manga corta negra short blanco",
+    "precio": 490,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-playeraMangaCortaNegra-shortBlanco.jpg"
+  },
+  {
+    "id": 60,
+    "nombre": "Conjunto playera manga cort gris pantalon rosa",
+    "precio": 360,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-playeraMangaCortGris-pantalonRosa.jpg"
+  },
+  {
+    "id": 61,
+    "nombre": "Conjunto playera sin mangas negra pantalon azul con guantes",
+    "precio": 410,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-playeraSinMangasNegra-pantalonAzul-conGuantes.jpg"
+  },
+  {
+    "id": 62,
+    "nombre": "Conjunto top pantalon negro",
+    "precio": 590,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-top-pantalon-negro.jpg"
+  },
+  {
+    "id": 63,
+    "nombre": "Conjunto top short rosas",
+    "precio": 510,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-top-short-rosas.jpg"
+  },
+  {
+    "id": 64,
+    "nombre": "Conjunto top beige short negro",
+    "precio": 530,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-topBeige-shortNegro.jpg"
+  },
+  {
+    "id": 65,
+    "nombre": "Conjunto top blancoy negro playera sin manga rosa pantalon negro",
+    "precio": 640,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-topBlancoyNegro-playeraSinMangaRosa-pantalonNegro.jpg"
+  },
+  {
+    "id": 66,
+    "nombre": "Conjunto top gris pantalon rosa con toallaen el cuello",
+    "precio": 500,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-topGris-pantalonRosa-conToallaenElCuello.jpg"
+  },
+  {
+    "id": 67,
+    "nombre": "Conjunto top rojo pantalon negro",
+    "precio": 570,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-topRojo-pantalonNegro.jpg"
+  },
+  {
+    "id": 68,
+    "nombre": "Conjunto top rosa short negro",
+    "precio": 530,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/conjunto-topRosa-shortNegro.jpg"
+  },
+  {
+    "id": 70,
+    "nombre": "Playera sin mangas azul marino con toallaen el cuello",
+    "precio": 440,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/playeraSinMangasAzulMarino-conToallaenElCuello.jpg"
+  },
+  {
+    "id": 71,
+    "nombre": "Top rosa tipo bikini",
+    "precio": 390,
+    "categoria": "FUERZA",
+    "imagen": "images/stock-ropa-deportiva/fuerza/top-rosa-tipo-bikini.jpg"
+  },
+  {
+    "id": 72,
+    "nombre": "Short",
+    "precio": 300,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-short/short1-atras.jpg"
+  },
+  {
+    "id": 74,
+    "nombre": "Short conjunto completo con playera",
+    "precio": 680,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-short/short1-conjunto-completo-con-playera.jpg"
+  },
+  {
+    "id": 75,
+    "nombre": "Short conjunto completo con playera",
+    "precio": 550,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-short/short2-conjunto-completo-con-playera.jpg"
+  },
+  {
+    "id": 76,
+    "nombre": "Short conjunto completo con playera",
+    "precio": 680,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-short/short3-conjunto-completo-con-playera.jpg"
+  },
+  {
+    "id": 77,
+    "nombre": "Traje color azul cielo",
+    "precio": 520,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-cielo-atras.jpg"
+  },
+  {
+    "id": 78,
+    "nombre": "Traje color azul cielo",
+    "precio": 460,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-cielo-costado.jpg"
+  },
+  {
+    "id": 79,
+    "nombre": "Azul claro",
+    "precio": 310,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-claro-clavado.jpg"
+  },
+  {
+    "id": 80,
+    "nombre": "Azul con cuadros blancos",
+    "precio": 570,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-con-cuadros-blancos.jpg"
+  },
+  {
+    "id": 81,
+    "nombre": "Azul gris naranja",
+    "precio": 510,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-gris-naranja.jpg"
+  },
+  {
+    "id": 82,
+    "nombre": "Azul marino con patron",
+    "precio": 430,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-marino-con-patron.jpg"
+  },
+  {
+    "id": 83,
+    "nombre": "Azul marino",
+    "precio": 480,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-marino.jpg"
+  },
+  {
+    "id": 84,
+    "nombre": "Azul rey nadando",
+    "precio": 470,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-rey-nadando.jpg"
+  },
+  {
+    "id": 85,
+    "nombre": "Azul rey short",
+    "precio": 280,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-rey-short.jpg"
+  },
+  {
+    "id": 86,
+    "nombre": "Azul rey",
+    "precio": 310,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-rey.jpg"
+  },
+  {
+    "id": 87,
+    "nombre": "Azul y verde atras",
+    "precio": 280,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-y-verde-atras.jpg"
+  },
+  {
+    "id": 88,
+    "nombre": "Azul y verde clavado",
+    "precio": 350,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/azul-y-verde-clavado.jpg"
+  },
+  {
+    "id": 89,
+    "nombre": "Blanco",
+    "precio": 380,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/blanco.jpg"
+  },
+  {
+    "id": 91,
+    "nombre": "Naranja atras",
+    "precio": 350,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/naranja-atras.jpg"
+  },
+  {
+    "id": 92,
+    "nombre": "Naranja frente",
+    "precio": 500,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/naranja-frente.jpg"
+  },
+  {
+    "id": 93,
+    "nombre": "Negro con patron",
+    "precio": 480,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/negro-con-patron.jpg"
+  },
+  {
+    "id": 94,
+    "nombre": "Negro con puntos remando",
+    "precio": 400,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/negro-con-puntos-remando.jpg"
+  },
+  {
+    "id": 95,
+    "nombre": "Negro",
+    "precio": 330,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/negro.jpg"
+  },
+  {
+    "id": 96,
+    "nombre": "Rosa mexicano",
+    "precio": 340,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/rosa-mexicano.jpg"
+  },
+  {
+    "id": 97,
+    "nombre": "Rosa y verde",
+    "precio": 340,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/rosa-y-verde.jpg"
+  },
+  {
+    "id": 99,
+    "nombre": "Verde neon, sirena",
+    "precio": 500,
+    "categoria": "NADAR",
+    "imagen": "images/stock-ropa-deportiva/nadar/tipo-traje-completo/verde-neon-con-palabra-mermaid.jpg"
+  },
+  {
+    "id": 100,
+    "nombre": "Conjunto basquetbol playera manga corta blanca pantalon gris",
+    "precio": 330,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-basquetbol-playeraMangacortaBlanca-pantalonGris.jpg"
+  },
+  {
+    "id": 101,
+    "nombre": "Conjunto boxeo playera manga corta y short negros guantes blaancos",
+    "precio": 560,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-boxeo-playeraMangacorta-y-short-negros-guantes-blaancos.jpg"
+  },
+  {
+    "id": 102,
+    "nombre": "Conjunto boxeo playera manga larga negra playera manga corta verde guantes rosas",
+    "precio": 320,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-boxeo-playeraMangaLargaNegra-playeraMangaCortaVerde-guantesRosas.jpg"
+  },
+  {
+    "id": 103,
+    "nombre": "Conjunto futbol playera sudadera short espinilleras verde y blanco",
+    "precio": 570,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-futbol-playera-sudadera-short-espinilleras-verdeYBlanco.jpg"
+  },
+  {
+    "id": 104,
+    "nombre": "Conjunto futbol playera manga corta short azul marino con rojo",
+    "precio": 470,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-futbol-playeraMangaCorta-short-azulMarinoConRojo.jpg"
+  },
+  {
+    "id": 105,
+    "nombre": "Conjunto futbol playera manga corta short espinilleras verde yblanco",
+    "precio": 270,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-futbol-playeraMangaCorta-short-espinilleras-verdeYBlanco.jpg"
+  },
+  {
+    "id": 106,
+    "nombre": "Conjunto futbol playera manga corta blanca short negro",
+    "precio": 390,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-futbol-playeraMangaCortaBlanca-shortNegro.jpg"
+  },
+  {
+    "id": 107,
+    "nombre": "Conjunto futbol y lluvia, incluye chamarra, playera y short negros",
+    "precio": 300,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-futbol-y-lluvia-chamarray-short-negros.jpg"
+  },
+  {
+    "id": 108,
+    "nombre": "Conjunto gimnasia top blanco short negro",
+    "precio": 370,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-gimnasia-topBlanco-shortNegro.jpg"
+  },
+  {
+    "id": 109,
+    "nombre": "Conjunto hockey de pasto playera sin mangas rosa short negro",
+    "precio": 310,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-hockeyDePasto-playeraSinMangasRosa-shortNegro.jpg"
+  },
+  {
+    "id": 110,
+    "nombre": "Conjunto playera sin mangas y short negro",
+    "precio": 560,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-playeraSinMangas-y-short-negro.jpg"
+  },
+  {
+    "id": 111,
+    "nombre": "Conjunto tenis playera manga corta pantalon sudadera negros",
+    "precio": 490,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-tenis-playeraMangaCorta-pantalon-sudadera-negros.jpg"
+  },
+  {
+    "id": 112,
+    "nombre": "Conjunto tenis sudadera conmangas sin gorro mamey falda azul marino pantalon patron",
+    "precio": 360,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-tenis-sudaderaConmangasSinGorroMamey-faldaAzulMarino-pantalonPatron.jpg"
+  },
+  {
+    "id": 113,
+    "nombre": "Conjunto yoga playera manga corta blanca pantalon beige botella agua tapete gris",
+    "precio": 640,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-yoga-playeraMangaCortaBlanca-pantalonBeige-botellaAgua-tapeteGris.jpg"
+  },
+  {
+    "id": 114,
+    "nombre": "Conjunto yoga sudadera sin cierre con gorro negra pantalon verde tapete morado",
+    "precio": 250,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjunto-yoga-sudaderaSinCierreConGorroNegra-pantalonVerde-tapeteMorado.jpg"
+  },
+  {
+    "id": 115,
+    "nombre": "Conjuntos hockey de pasto playera sin mangas amarilla o verde ambos conshort negro",
+    "precio": 410,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/conjuntos-hockeyDePasto-playeraSinMangasAmarilla-o-Verde-ambos-conshortNegro.jpg"
+  },
+  {
+    "id": 116,
+    "nombre": "Shorts tenis colores naranja o verde oscuro",
+    "precio": 580,
+    "categoria": "OTROS DEPORTES",
+    "imagen": "images/stock-ropa-deportiva/otros-deportes/shorts-tenis-colores-naranja-o-verdeOscuro.jpg"
+  },
+  {
+    "id": 117,
+    "nombre": "Chamarra negra con cierrre y gorro enfrente",
+    "precio": 640,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/chamarra-negra-con-cierrre-y-gorro-enfrente.jpg"
+  },
+  {
+    "id": 118,
+    "nombre": "Chamarra negra con cierrre y gorro frontal",
+    "precio": 470,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/chamarra-negra-con-cierrre-y-gorro-frontal.jpg"
+  },
+  {
+    "id": 120,
+    "nombre": "Sudadera amarilla sin cierre con bolsa",
+    "precio": 540,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-amarilla-sin-cierre-con-bolsa.jpg"
+  },
+  {
+    "id": 121,
+    "nombre": "Sudadera azul atras",
+    "precio": 360,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-azul-atras.jpg"
+  },
+  {
+    "id": 122,
+    "nombre": "Sudadera azul marino con cierre frente",
+    "precio": 640,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-azul-marino-con-cierre-frente.jpg"
+  },
+  {
+    "id": 123,
+    "nombre": "Sudadera azul sin cierre sin gorro con bolsa",
+    "precio": 530,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-azul-sin-cierre-sin-gorro-con-bolsa.jpg"
+  },
+  {
+    "id": 124,
+    "nombre": "Sudadera gris atras",
+    "precio": 330,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-gris-atras.jpg"
+  },
+  {
+    "id": 125,
+    "nombre": "Sudadera negra sin cierre con bolsa",
+    "precio": 450,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-negra-sin-cierre-con-bolsa.jpg"
+  },
+  {
+    "id": 126,
+    "nombre": "Sudadera verde aqua con gorro ycierre",
+    "precio": 480,
+    "categoria": "CORRER",
+    "imagen": "images/stock-ropa-deportiva/sudaderas/sudadera-verdeAqua-conGorroYcierre.jpg"
+  }
+]
