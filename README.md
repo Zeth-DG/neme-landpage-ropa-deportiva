@@ -70,6 +70,7 @@ neme/
 │   └── style.css             # Estilos personalizados
 ├── js/
 │   ├── main.js               # Lógica de la aplicación
+│   ├── menu.js               # Menú tipo hamburguesa en móviles
 │   ├── script-generador.js   # Generador automático de catálogo
 │   └── productos.json        # Catálogo generado (auto-generated)
 ├── images/stock-ropa-deportiva/
@@ -265,9 +266,9 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ***
 
-## 👩‍💻 Autora
+## Autora
 
-**Lizeth Dorantes G**
+**Zeth Dorantes G**
 
 - 📍 Toluca, Estado de México
 - 💼 Biotech / Fullstack Developer in progress
@@ -292,8 +293,3 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 `neme | fluye, fortalécete, disfruta`
 
 </div>
-
-
-- Guía de cómo agregar nuevos productos manualmente
-
-¡Dime y lo integro! 🧵✨
