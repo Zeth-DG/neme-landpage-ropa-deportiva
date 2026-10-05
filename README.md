@@ -11,7 +11,7 @@ Una tienda web interactiva y moderna de ropa y accesorios deportivos diseñada e
 
 ## ¿Qué es Neme?
 
-**Neme** es una tienda web interactiva y moderna de **ropa y accesorios deportivos**. Su objetivo principal es ofrecer una experiencia de usuario limpia, atractiva y fluida para explorar diferentes colecciones (como correr, fuerza, natación y otros deportes), ver imágenes detalladas de los productos con nombres optimizados y gestionar un carrito de compras funcional.
+**Neme** es una landpage interactiva y moderna de **ropa y accesorios deportivos**. Su objetivo principal es ofrecer una experiencia de usuario limpia, atractiva y fluida para explorar diferentes colecciones (como correr, fuerza, natación y otros deportes), ver imágenes detalladas de los productos con nombres optimizados y gestionar un carrito de compras funcional.
 
 La plataforma está pensada para entusiastas del movimiento físico y cualquier persona que busque ropa deportiva con comodidad y calidad, todo en una experiencia de navegación intuitiva y visualmente atractiva.
 
