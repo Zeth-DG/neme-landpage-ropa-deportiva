@@ -3,7 +3,7 @@
 
 ### **Fluye, fortalécete, disfruta**
 
-Una tienda web interactiva y moderna de ropa y accesorios deportivos diseñada en México.
+Una landpage interactiva y moderna de ropa y accesorios deportivos diseñada en México.
 
 </div>
 
